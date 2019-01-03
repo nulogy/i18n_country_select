@@ -1,3 +1,7 @@
+## 1.3.0
+
+- Updating dependencies
+
 ## 1.2.1
 
 - Adding country exclusion option

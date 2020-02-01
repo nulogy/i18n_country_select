@@ -1,3 +1,7 @@
+## 1.3.1
+
+- Drop rubyforge_project from gemspec
+
 ## 1.3.0
 
 - Updating dependencies

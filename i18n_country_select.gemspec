@@ -6,7 +6,7 @@ require "i18n_country_select/version"
 # encoding: utf-8
 Gem::Specification.new do |s|
   s.name         = "i18n_country_select"
-  s.version     = I18nCountrySelect::VERSION
+  s.version      = I18nCountrySelect::VERSION
   s.authors      = ["Brian McQuay (brian@onomojo.com)"]
   s.email        = "brian@onomojo.com"
   s.homepage     = "https://github.com/onomojo/i18n_country_select"
@@ -16,10 +16,10 @@ Gem::Specification.new do |s|
   s.files        = Dir.glob("lib/**/*") + %w(README.rdoc MIT-LICENSE)
   s.platform     = Gem::Platform::RUBY
   s.require_path = 'lib'
-  s.rubyforge_project = '[none]'
-  s.required_rubygems_version = '>= 1.3.5'
+
   s.add_dependency('i18n', '~> 1.4')
   s.add_dependency('i18n-country-translations', '~> 1.3')
+
   s.add_runtime_dependency 'unicode_utils', '~> 1.0', '>= 1.0.0'
 
   s.add_development_dependency 'rails', '~> 5.0', '< 6.0'

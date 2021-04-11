@@ -1,3 +1,7 @@
+## 1.5
+
+- Drop support for older version of Rails
+
 ## 1.4
 
 - Updating dependencies

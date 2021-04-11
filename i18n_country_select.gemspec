@@ -17,13 +17,13 @@ Gem::Specification.new do |s|
   s.platform     = Gem::Platform::RUBY
   s.require_path = 'lib'
 
-  s.add_dependency('i18n', '~> 1.4')
+  s.add_dependency('i18n', '~> 1.8')
   s.add_dependency('i18n-country-translations', '~> 1.3')
 
   s.add_runtime_dependency 'unicode_utils', '~> 1.0', '>= 1.0.0'
 
-  s.add_development_dependency 'rails', '~> 5.0', '< 6.0'
-  s.add_development_dependency 'rspec-rails', '~> 3.8'
+  s.add_development_dependency 'rails', '~> 6.0.3'
+  s.add_development_dependency 'rspec-rails', '~> 5.0'
 
   s.licenses = ['MIT', 'GPL-3.0']
 end
